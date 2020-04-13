@@ -1,0 +1,23 @@
+nav{
+  background-color: #3A4B63;
+  height: 100px;
+}
+
+body{
+  background: #3A4B63;
+}
+.story{
+  background: url(bgthorn.svg);
+  background-size: contain;
+  width: 100%;
+}
+.text{
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+img{
+  width: 100%;
+}
