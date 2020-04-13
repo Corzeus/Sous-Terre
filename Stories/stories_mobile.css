@@ -1,6 +1,6 @@
 @media all and (max-device-width: 640px){
   *{
-    font-size: 4em;
+    font-size: 25px;
   }
   nav{
     background-color: #3A4B63;
@@ -28,6 +28,9 @@
 
 @media all and (max-width: 640px)  {
 
+  *{
+    font-size: 18px;
+  }
     nav{
       background-color: #3A4B63;
       height: 100px;
