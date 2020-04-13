@@ -7,7 +7,7 @@ body{
   background: #3A4B63;
 }
 .story{
-  background: url(bgthorn.svg);
+  background: url(../Svg/bgthorn.svg);
   background-size: contain;
   width: 100%;
 }

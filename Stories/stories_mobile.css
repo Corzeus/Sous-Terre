@@ -1,0 +1,23 @@
+@media all and (max-width: 640px) {
+  nav{
+    background-color: #3A4B63;
+    height: 100px;
+  }
+  body{
+    background: #3A4B63;
+  }
+  .story{
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  img{
+    content: url(../SvgMobile/Thorn.svg);
+    width: 100%;
+  }
+}
