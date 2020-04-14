@@ -1,6 +1,7 @@
 @media screen and (max-width: 640px){
   *{
-    font-size: 30px;
+    font-size: 1.2em;
+    line-height: 1.3em;
   }
   nav{
     background-color: #3A4B63;
