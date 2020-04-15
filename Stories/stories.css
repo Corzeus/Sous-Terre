@@ -1,14 +1,28 @@
 *{
   font-size: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-nav{
-  background-color: #3A4B63;
-  height: 100px;
+/* montserrat-regular - latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v14-latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v14-latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v14-latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v14-latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v14-latin-ext-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
-
 body{
   background: #3A4B63;
 }
+
 .story{
   background: url(../Svg/bgthorn.svg);
   background-size: contain;
@@ -23,4 +37,46 @@ body{
 }
 img{
   width: 100%;
+}
+nav{
+  width: 100%;
+  background-color: #3A4B63;
+  height: 200px;
+}
+nav ul{
+  float: right;
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin:0 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  background: none;
+  color: white;
+  font-size: 30px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+a.active, a:hover{
+  background: rgba(255,255,255,0.5);
+  transition: 0.5s;
+}
+
+.checkbtn{
+  font-size: 100px;
+  color: white;
+  float: right;
+  line-height: 100px;
+  cursor: pointer;
+  margin: 5% 5%;
+  display: none;
+}
+#check{
+  display: none;
 }
