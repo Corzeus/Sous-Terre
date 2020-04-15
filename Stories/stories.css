@@ -46,6 +46,7 @@ nav{
 nav ul{
   float: right;
   width: 100%;
+  background: #30414E;
 }
 nav ul li{
   display: inline-block;
