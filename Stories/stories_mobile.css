@@ -17,17 +17,11 @@
   }
   .text{
     width: 100%;
-    background-color: white;
-    margin: 0;
-    padding-top: 1px;
-    padding-bottom: 1px;
   }
   .title{
     content: url(../SvgMobile/Title.svg);
   }
-  .pres_img{
-    content: url(../SvgMobile/Thorn.svg);
-  }
+  /* l'image est modifiée par le javascript*/
   .checkbtn{
     display: block;
     width: 5%;
