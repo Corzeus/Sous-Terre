@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Règles et aides</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+  <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body class="stackedit">
+
+  <img src="Svg/Title.svg" class="title">
+  <nav class="nav">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <img src="SvgMobile/icon.svg">
+    </label>
+      <ul class="nav_ul">
+
+        <li> <a href="index.html">acceuil</a> </li>
+        <li> <a href="#">règles et aides</a> </li>
+        <li> <a href="#">évènements</a> </li>
+        <li> <a href="rjnous.html">rejoins nous</a> </li>
+      </ul>
+  </nav>
+
+  <div class="main_content">
+    <div class="m"></div>
+    <div class="text">
+            <div class="stackedit__html"><h1 id="règles">Règles</h1>
+          <p>Alors , comme tout serveur discord c’est un lieu “public”, auquel tout le monde a en soit accès : il est donc impératif que les règles de savoir-vivre qui s’appliquent dans tous lieux publics s’appliquent aussi ici.</p>
+          <ul>
+          <li>pas de racisme ou de ségrégation de quelconques communautés où ethnies particulière</li>
+          <li>Pas de harcèlement (même si vous pensez faire rire la personne…)</li>
+          <li>tout ce qui est rapport à la pornographie devra être maîtrisé et limité (si vous avez besoin de vous “défouler”, d’autres serveur sont dédiés à cela)</li>
+          </ul>
+          <p>Tout irrespect de ces règles de base sera <em><strong>lourdement</strong></em> sanctionné et pourra facilement amener à une exclusion du serveur</p>
+          <h2 id="règles-de-jeu-du-serveur">Règles de jeu du serveur</h2>
+          <p>Nous avons créé un petit système de règles en rapport avec l’univers du jeu, pour tout ce qui concerne les actions de vos personnages.</p>
+          <h3 id="les-trois-actions">Les trois actions</h3>
+          <p>Lors des combats vous allez être amenés à choisir plusieurs actions, les voicis : <mark>L’attaque</mark> , <mark>le contrôle</mark> et <mark>l’intiative</mark>.</p>
+          <ul>
+          <li><strong>l’attaque</strong> : c’est le principe de base, vous allez attaquer une cible et lui infliger des dommages (environ) égaux à la différence entre votre jet et le jet de votre cible. Vous ne faites rien d’autre lors de votre tour.</li>
+          <li><strong>le contrôle</strong> : vous allez choisir une cible et l’obliger à faire un mouvement pouvant la mettre en danger. Après avoir ciblé la personne contrôlé, le bot vous donnera le <strong>seuil</strong>. Le round d’après, avant de faire la commande, il faudra que la personne contrôlée fasse un jet (<code>$roll</code>), si son jet est <em><strong>inférieur au seuil</strong></em> elle subira ce que votre contrôle était censé faire subir, sinon rien ne se passera et la personne fera un round normal.</li>
+          <li><strong>l’intiative</strong>: Prendre l’initiative vous permettra de faire la commande de round pour le prochain round, ce qui veut dire que vous choisissez la compétence à utiliser pour le prochain round. Vous pouvez de plus commencer à scénariser votre prochain tour.</li>
+          </ul>
+          <h3 id="combat">Combat</h3>
+          <p>Pour ce qui est du combat, contre monstre ou autre joueur il faut faire comme suit:</p>
+          <ul>
+          <li><strong>Contre un monstre</strong> : Utilisez la commande <code>$round monstre</code> avec “monstre” représentant le nom du monstre que vous combattez. A chaque round vous ou votre adversaire allez perdre des points de vie, si c’est vous les points de vie seront enlevés automatiquement. En revanche il faudra que vous teniez les compte pour votre adversaire. Si votre adversaire meurt, récupérez les récompenses qu’il drop en faisant la commande <code>$drop monstre</code> mais n’abusez pas de cette commande, sinon elle vous sera interdite et il n’y aura plus de moyens pour vous de gagner ce loot. Si vous perdez tt vos points de vies, allez voir la section <a href="#">Mourrir</a></li>
+          <li><strong>Contre un joueur</strong> : effectuez la même commande mais en mentionnant la personne que vous combattez : <code>$round @personne</code>, les même règles que sur les monstres s’appliquent. Si les points de vies de l’un tombent à 0 l’autre prend l’entière responsabilité de l’autre , voire <a href="#">Mourir</a>.</li>
+          <li><strong>Combats à trois</strong> : vous pouvez vous combattre à trois dans ce RP : trois joueurs, deux joueurs un monstre, enfin bref , faites comme vous voulez ! La commande pour un round pareil est la même qu’au dessus <code>$round nom1 @mention</code> mentionnez les joueurs avec qui vous voulez combattre et mettez les noms qu’il faut pour les monstres. Le gagnant du round aura trois choix : l’attaque, le contrôle et l’intiative comme expliqué juste au-dessus. Une fois qu’il aura choisit les deux autres pourront se départager les actions restantes en faisant un <code>$roll</code> . Si dans un tel combat, un monstre venait à mourir, toutes les personnes du combat pourraient faire la commande <code>$drop</code> et recevoir le butin d’u monstre. Et encore une fois si un joueur voit ses points de vie tomber à zéro, allez voir la section <a href="#">Mourrir</a></li>
+          </ul>
+          <h3 id="autres-actions">Autres actions</h3>
+          <p>Pour l’instant il n’y a pas d’autres “actions spéciales” qui on été mises en place, vous pouvez faire tout ce que vous voulez dans la limite du possible et de vos stats : lorsque vous faites <em><strong>une action avec un enjeu incertain</strong></em> faites <code>$roll carac</code> avec la carac de votre personnage correspondant le plus à l’action que vous essayez de réaliser.</p>
+          <blockquote>
+          <p>Exemple : <em>Fiel veut essayer de manipuler le garde face à l’entrée de la bibliothèque recensant toutes les infos en relation avec sa famille : il fait un Roll d’esprit</em></p>
+          </blockquote>
+          <h3 id="les-états">Les états</h3>
+          <p>Actuellement nous n’avons pas complexifié les choses, nous avons préféré rester sur des choses simples : tous les joueurs ont un seul état. En vie, chaos, ou mort. On est en vie quand nos point de vie sont supérieur à 0 , chaos quand nos points de vies tombent à 0 , et mort si notre personnage se fait attaquer alors qu’il est chaos.<br>
+          La mort d’un personnage doit être scénarisé par la personne qui l’incarne , ça rend la chose plus mélodieuse et mélancolique : cependant la mort d’un joueur doit rester exceptionnelle, on est pas sur un jeu dit “die and retry”.</p>
+          <h4 id="mourrir--devenir-chaos">Mourrir / Devenir chaos</h4>
+          <p>Lorsque vos points de vie tombent à 0, vous êtes chaos. Si vous étiez en combat et que vous n’aviez pas fait votre action, faites-là (car tout est censé se passer en même temps) sinon, votre personnage devient inconscient et ne peut plus rien faire. Vous êtes inconscient tant que quelqu’un ne vous a pas soigné.<br>
+          La personne qui vous a mis dans un tel état et donc entièrement responsable de vous et peut vous tuer. Si cependant vous êtes mort d’un phoénomène plutôt naturel, personne ne viendra vous tuer réellement.<br>
+          Sachez que si cela fait plus de quatres jours que vous êtes chaos, vous mourrez.</p>
+          <h2 id="liste-des-commandes-du-bot">Liste des commandes du bot</h2>
+          <p><em><strong>Important :</strong></em> J’appelle argument d’une commande tout ce que vous rentrez en plus du nom de la commande. Les arguments sont nécessaire au bon fonctionnement de la commande, ceux qui ne le sont pas sont entourés de [ ]</p>
+          <h3 id="commandes-accessibles-par-tous">Commandes accessibles par tous</h3>
+          <ul>
+          <li><code>$roll carac</code> : remplacez carac par l’une de vos caractéristiques ( “force”, “esprit” ou “magie”). Vous la simulation d’un jet de dé entre 0 et la valeur de votre carctéristique .</li>
+          <li><code>$round nom/mention [nom/mention]</code> : la commande round vous permet de simuler un tour de combat (voire <a href="#">Combat</a>). “Nom” représente le nom d’un monstre que vous affrontez (vous pouvez combattre jusqu’à deux monstres) et “mention” représente le fait qu’au lieu de vous battre contre un monstre vous pouvez vous battre conrte un autre joueur en le mentionnant. <strong>Attention</strong> : dans un round qui impliquerais un monstre et un joueur en plus de vous, vous devrez mettre le nom du monstre avant la mention du joueur.</li>
+          <li><code>$me</code> : Vous renvoie votre fiche de personnage dans le channel où la command a été lancée</li>
+          <li><code>$info nom/mention</code> : mettez n’importe quel nom de la liste suivante (ou mention de joueur) pour recevoir des ifnormations dessus. Tous les noms d’event, tous les noms de monstres</li>
+          <li><code>$drop monstre</code>: remplacez monstre par le nom d’un monstre, vous recevrez la récompense qu’il est censé donner. Ne faites cette commande qu’à <strong>la fin d’un combat</strong> où vous aurez bien évidemment gagné.</li>
+          <li><code>$help arg</code> : vous pouvez mettre actuelement deux chose à la place de “arg” : “event” ou “new-hero”. “event” vous renverra le fichier à remplir pour créer un nouvel événement avec la commande <a href="#">new event</a>, et “new-hero” vous renverra le fichier à remplir pour créer rapidement un nouvel héro sans passer par la phase de création de personnage avec la commande <a href="#">new-hero</a></li>
+          </ul>
+          <h3 id="commandes-accessibles-seulement-par-les-admins">Commandes accessibles seulement par les admins</h3>
+          <ul>
+          <li><code>$set</code> : cette commande a plusieurs utilisation: vous pouvez modifier toutes les caractéritiques des monstres et des joueurs :</li>
+          <li>
+          <ul>
+          <li><code>$set carac nombre [mention]</code> : remplacez “carac” par la carctéristique que vous voulez modifier et “nombre” par le nombre qu’il faudra maintenant lui attribuer. Si vous ne mentionnez personne dans le message,  cette caractéristique sera modifié sur votre personnage, si vous mentionnez un joueur elle sera modifié sur le personnage qu’incarne le joueur.</li>
+          </ul>
+          </li>
+          <li>
+          <ul>
+          <li><code>$set mstr carac=nombre nom</code>: pour “carac” et “nombre” les choses ne changent pas (appart le fait qu’il faudra les joindre avec un “=”), et remplacez “nom” par le nom du monstre à modifier. laissez “mstr” comme tel.</li>
+          </ul>
+          </li>
+          <li><code>$del</code> : là encore il ya plusieurs utilisations possibles : supprimer en événement ou un monstre (on ne peut pas surpprimer le personnage d’un joueur pour des raison évidente d’abus):</li>
+          <li>
+          <ul>
+          <li><code>$del mstr nom</code>: remplacez “nom” par le nom du monstre, le monstre sera détruit du bestiaire et du jeu.</li>
+          </ul>
+          </li>
+          <li>
+          <ul>
+          <li><code>$del event nom</code>: même chose que pour les monstres, va détruire un event du jeu</li>
+          </ul>
+          </li>
+          <li><code>$new</code> : encore une fois, il y a pleins de possibilités. On peut créer un event, un monstre et même un “personnage rapide”.</li>
+          <li>
+          <ul>
+          <li><code>$new event</code> : tappez la commande tel quel en joignant à votre message un certain fichier disponible via la commande help (voire <a href="#">help event</a>). Ceci créera un nouvel event dans le channel event</li>
+          </ul>
+          </li>
+          <li>
+          <ul>
+          <li><code>$new-hero</code>: tappez la commande tel quel en joignant à votre message un certain fichier disponible via la commande help (voire <a href="#">help new_hero</a>). Ceci créera un nouveau personnage rataché à la personne que vous aurez mise dans le fichier</li>
+          </ul>
+          </li>
+          <li>
+          <ul>
+          <li><code>$new mstr nom force magie esprit vie effets</code> :  Remplacez “nom” par le nom de votre monstre (essayez le plus possible de faire des noms sans espaces, sinon <strong>remplacez les espaces par des +</strong>), pour force , magie, esprit et vie mettez des valeurs numériques. Pour les “effets”, mettez ce que vous voulez pour que les joueurs puissent facilement interpréter le comportement de vos monstres. De plus si dans les effets vous rajoutez “R<strong>x</strong>po” le monstre aura un récompense sur sa tête de x po (remplacez donc x par une valeur numérique)</li>
+          </ul>
+          </li>
+          </ul>
+          </div>
+    </div>
+  </div>
+</body>
+
+</html>
