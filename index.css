@@ -37,7 +37,7 @@ body{
 }
 
 .main_content{
-  /*background modifié par le javascript*/
+  background: url("Svg/Accueil-img.svg");
   background-size: contain;
   width: 100%;
 }
