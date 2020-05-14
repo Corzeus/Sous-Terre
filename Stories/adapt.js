@@ -6,12 +6,11 @@ function name_doc(){
 
 function load_img() {
   //Chargement de l'image de présentation
+  var src = name_doc();
+  var w = window.matchMedia("(max-width: 640px)");
   var images = document.getElementsByClassName("pres_img");
-  var fileName = location.href.split("/").slice(-1)[0];
-  var src = fileName.split(".")[0];
-  for (var i = 0; i < images.length; i++) {
-    images[i].setAttribute("src", "../Svg/"+src+".svg");
-  }
+  change_img_on_mobile(w)
+
   //Chargement de l'image de background
   var b_i = document.getElementsByClassName("story")[0];
   var url = "url(../Svg/bg"+src.toLowerCase()+".svg";
@@ -30,5 +29,5 @@ function change_img_on_mobile(x) {
 }
 
 var w = window.matchMedia("(max-width: 640px)")
-change_img_on_mobile(w) // Call listener function at run time
-w.addListener(myFunction) // Attach listener function on state changes
+change_img_on_mobile(w)
+w.addListener(change_img_on_mobile) // Attach listener function on state changes
