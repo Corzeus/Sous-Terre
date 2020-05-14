@@ -1,0 +1,11 @@
+
+.blocks{
+  display: flex;
+  align-items: center;
+}
+.block1{
+  padding: 2%;
+}
+.block2{
+  padding: 2%;
+}
