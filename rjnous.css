@@ -9,3 +9,9 @@
 .block2{
   padding: 2%;
 }
+@media all and (max-width: 1150px) {
+  .blocks {
+    display: inherit;
+    align-items: inherit;
+  }
+}
